@@ -90,11 +90,12 @@ nav ul li:last-child {
 }
 
 nav ul li a {
-    color: #0c2e50; /* Color negro para el texto del menú */
+    color: #111771; /* Color negro para el texto del menú */
     text-decoration: none;
     display: inline-block; /* Convertir el enlace en un bloque en línea */
     padding: 10px; /* Ajustar el relleno según sea necesario */
     position: relative; /* Establecer posición relativa para agregar la línea inferior */
+    font-weight: 600;
 }
 
 nav ul li a:hover {
@@ -161,4 +162,35 @@ footer p {
     nav ul li a {
         margin-right: 10px; /* Reducir el margen para adaptarse a pantallas pequeñas */
     }
+}
+.nosotros img {
+    float: right; /* Flotar la imagen a la derecha del texto */
+    margin-left: 20px; /* Agregar un margen a la izquierda para separarla del texto */
+    max-width: 40%; /* Establecer un ancho máximo para la imagen */
+     margin-top: -290px;
+     border-radius: 10px; /* Borde redondeado para las imágenes */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra suave para las imágenes */
+
+}
+.content {
+    background-color: #f7f7f7; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+     max-height: 400px; /* Límite de altura */
+    overflow-y: auto; /* Habilitar el desplazamiento vertical si es necesario */
+    max-width: 600px; /* Límite de ancho */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+     margin-left: 22px;
+}
+.aside {
+    width:250px;
+    border:1px solid #ccc;
+    float:left;
+    margin-left:20px;
+    border-radius:5px;
+    background:#fff;
+    padding:10px;
+    margin-bottom:50px;
+    text-align:center;
 }
